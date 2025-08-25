@@ -1,0 +1,15 @@
+@define-color foreground #88A827; /* 1 */
+@define-color background #214130; /* 4 */
+
+/* @define-color background rgba(0,0,0,0.0) */
+* {
+  background-color: @background;
+  color: @foreground;
+  font-family: JetBrainsMono Nerd Font Propo;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+#workspaces button.active {
+    border-bottom: 1px solid @foreground;
+}
